@@ -1,0 +1,159 @@
+body {
+  background-color: #ddd;
+}
+
+.colorful {
+  background-color: rgb(240, 200, 100);
+  animation: colorful infinite 10s linear;
+}
+
+.main {
+  background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("../img/mansion1.jpg");
+
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.description {
+  background-image: url("../img/mansion1.jpg");
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.invitation {
+  background-image: url("../img/mansion1.jpg");
+
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.light {
+  color: #eee;
+}
+
+.big {
+  font-size: 4em;
+}
+
+.medium {
+  font-size: 2em;
+}
+
+.dark-shadow {
+  text-shadow: #222 0 0 10px;
+}
+
+@keyframes colorful {
+  0% { filter: hue-rotate(0deg); }
+
+  100% { filter: hue-rotate(360deg); }
+}
+
+.contact-banner {
+  background-image: linear-gradient(
+    to right,
+    rgb(0, 114, 66) 0%,
+    rgb(4, 109, 91) 100%
+  );
+  color: white;
+  padding: 40px;
+}
+
+.invalid {
+  border: 1px solid red;
+}
+
+.mb-2 {
+  margin-bottom: 20px;
+}
+
+.mb-4 {
+  margin-bottom: 40px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.contact-description {
+  margin-bottom: 40px;
+}
+
+input {
+  padding: 10px;
+  border-radius: 5px;
+  width: 280px;
+  border: 1px solid rgb(0, 114, 66);
+  font-size: 18px;
+  outline: none;
+  color: #333;
+}
+
+.form-control {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 6px;
+}
+
+label {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.hide {
+  opacity: 0;
+}
+
+textarea {
+  width: 560px;
+  border-radius: 5px;
+  outline: none;
+  padding: 10px;
+  height: 200px;
+  font-size: 18px;
+}
+
+button {
+  color: black;
+  padding: 20px;
+  border: 1px solid rgb(0, 114, 66);
+  border-radius: 10px;
+  background: none;
+  cursor: pointer;
+  transition: all 0.5s;
+  color: rgb(0, 114, 66);
+}
+
+button:hover {
+  background-image: linear-gradient(
+    to right,
+    rgb(0, 114, 66) 0%,
+    rgb(4, 109, 91) 100%
+  );
+  color: white;
+}
+
+form {
+  padding: 40px;
+}
+
+hr {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  height: 1px;
+  border: none;
+  background-color: rgb(0, 114, 66);
+}
